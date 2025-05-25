@@ -1,0 +1,80 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #e0e0e0;
+  scroll-behavior: smooth;
+}
+a {
+  color: #00c2ff;
+  text-decoration: none;
+}
+.container {
+  width: 90%;
+  max-width: 1140px;
+  margin: auto;
+  padding: 20px;
+}
+header, footer {
+  background: #1e1e1e;
+  padding: 20px 0;
+}
+h1, h2, h3, h4 {
+  margin-bottom: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.cta-button, .btn-primary, button {
+  background: #00c2ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.cta-button:hover, .btn-primary:hover, button:hover {
+  background: #0099cc;
+}
+.hero {
+  text-align: center;
+  padding: 60px 0;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.service-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.service-card {
+  flex: 1;
+  background: #2a2a2a;
+  padding: 20px;
+  border-radius: 8px;
+}
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #2a2a2a;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+form button {
+  width: 100%;
+}
